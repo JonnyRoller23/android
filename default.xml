@@ -7,11 +7,6 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-  
-  <!-- GitHub (Project-Awaken) -->
-  <remote  name="all"
-           fetch="https://github.com/"
-           clone-depth="1" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -25,10 +20,7 @@
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r18" />
   <contactinfo bugurl="go/repo-bug" />
-  
- <project path="external/themelib" name="JonnyRoller23/android_external_themelib" remote="all" revision="12" clone-depth="1" />
- <project path="external/colorkt" name="JonnyRoller23/android_external_colorkt" remote="all" revision="12" clone-depth="1" />
-  
+   
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
